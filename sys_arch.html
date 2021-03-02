@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html  >
+<head>
+  <!-- Site made with Mobirise Website Builder v5.2.0, https://mobirise.com -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/blue-umic-logo-without-text-445x439.png" type="image/x-icon">
+  <meta name="description" content="">
+  
+  
+  <title>System Architecture</title>
+  <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+  
+  
+  
+  
+</head>
+<body>
+  
+  <section class="menu cid-s48OLK6784" once="menu" id="menu1-r">
+    
+    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <span class="navbar-logo">
+                    <a href="https://www.umiciitb.com/" target="_blank">
+                        <img src="assets/images/blue-umic-logo-without-text-445x439.png" alt="UMIC IITB" style="height: 3.8rem;">
+                    </a>
+                </span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-primary display-7" href="index.html#top">UNMESH MASHRUWALA<br>Innovation Cell, IIT Bombay</a></span>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-primary display-4" href="home.html" aria-expanded="false">Home</a></li><li class="nav-item dropdown"><a class="nav-link link text-primary dropdown-toggle display-4" href="#" data-toggle="dropdown-submenu" aria-expanded="false">The Drones</a><div class="dropdown-menu"><a class="text-primary dropdown-item display-4" href="drone_chars.html#content4-18">Mothership</a><a class="text-primary dropdown-item display-4" href="drone_chars.html#content4-1c">Daughter Drone</a><a class="text-primary dropdown-item display-4" href="drone_chars.html#content4-1o" aria-expanded="false">Gripper<br></a></div></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="sys_arch.html" aria-expanded="false">System Architecture</a></li></ul>
+                
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-info display-4" href="instructions.html"><span class="mobi-mbri mobi-mbri-code mbr-iconfont mbr-iconfont-btn"></span>Simulation Page</a></div>
+            </div>
+        </div>
+    </nav>
+
+</section>
+
+<section class="header4 cid-sqmcwmpsUs mbr-fullscreen mbr-parallax-background" id="header4-1j">
+
+    
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="content-wrap">
+                <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>System Architecture</strong></h1>
+                
+                <p class="mbr-fonts-style mbr-text mbr-white mb-3 display-7">The what and how of our entire system</p>
+
+                <div class="mbr-section-btn"><a class="btn btn-info display-4" href="page3.html#content7-15"><span class="mobi-mbri mobi-mbri-down mbr-iconfont mbr-iconfont-btn"></span>Learn more</a></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content7 cid-sqeLUYTy1j" id="content7-15">
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-9">
+                <blockquote>
+                <h5 class="mbr-section-title mbr-fonts-style mb-2 display-7"><strong>How do we plan to achieve this impossible task?</strong></h5>
+                <p class="mbr-text mbr-fonts-style display-7">The hunter-killer vessel is located approximately 2.5 km off the coast. We use a Hex configured mother drone to deliver our daughter drone close to the ship. <br>As the mother drone reaches close to the vessel, it hovers in a stable position while the daughter drone takes off from above the mother drone. <br>The daughter drone moves towards the communication module while the mother drone returns to it’s home position.&nbsp; The mission is hence completed well within the time limits by sacrificing the Daughter drone.&nbsp;</p></blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content4 cid-sqqMn3J6hq" id="content4-1s">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Controls Subsystem</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">Localisation is the method of localising oneself in an environment with respect to the initial position. One of the most popular methods of Localisation is SLAM (Simultaneous Localisation and Mapping). <br>Visual SLAM extracts features from the environment to create a map and uses them to obtain the relative position. We have implemented ORB-SLAM2 for the localisation of the Daughter drone and RTK-GPS for the Mothership.&nbsp;</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image2 cid-sqqQxKBJeR" id="image2-1x">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-4">
+                <div class="image-wrapper">
+                    <img src="assets/images/gazebo-397x281.png" alt="Mobirise">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Gazebo Simulation Environment</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">We have used Gazebo 9 as our primary 3D simulator backed by ROS Melodic. Gazebo utilizes the high-performance physics engine ODE (Open Dynamics Engine). It provides a realistic rendering of environments, including high-quality lighting, shadows, and textures.<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image1 cid-sqqMnXl2M3" id="image1-1t">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/sitl.gif" alt="Mobirise">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>PX4 SITL Flight Stack</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">The PX4 Software in the loop (SITL) package formed our drone control's backbone and was used to execute the mission trajectories and other complicated manoeuvres. This package mimics the performance of the flight controller in simulation, hence giving close to real results. <br>Custom trajectories are defined and passed to PX4 using position and velocity setpoints. The trajectories were optimized and smoothed out by our flight controller for minimum jerk along the path.&nbsp;<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image2 cid-sqqQxZZm7m" id="image2-1y">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/module-replacement.gif" alt="Mobirise">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Module Replacement using Joint Transmissions</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>Joint Controllers using ROS</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">We utilised joint-transmission controllers in ROS to control the actuators of the module replacement mechanism with high precision.
+<br>The quad mimics the mast motion with varying sea states using the ML feed to align the gripper mechanism with the module. 
+<br>Further, the end-effector's fine alignment is done using PID tuning of the alignment mechanism to capture the mast's motion accurately.&nbsp; The team did the tuning based on the ML detection and the actuator specifications.
+<br>Once aligned to the required proximity, a sequence of actions performed by the end-effector mechanism replaces the communication module.<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image1 cid-sqqQyU4aBL" id="image1-1z">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-5">
+                <div class="image-wrapper">
+                    <img src="assets/images/gzweb-1076x605.jpg" alt="Mobirise">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>GZWeb WebGL Client</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">GZWeb is used as a WebGL client for gazebo. Like gzclient, it's a front-end graphical interface to gzserver and provides visualization of the simulation. Mission parameters like wind speed and direction, sea states, endurance and maximum flight speed can be changed in real-time from the interface at any point during the whole mission.<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content4 cid-sqeCyfVaFC" id="content4-y">
+    
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-10">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Localisation Subsystem</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">Localisation is the method of localising oneself in an environment with respect to the initial position. One of the most popular methods of Localisation is SLAM (Simultaneous Localisation and Mapping). <br>Visual SLAM extracts features from the environment to create a map and uses them to obtain the relative position. We have implemented ORB-SLAM2 for the localisation of the Daughter drone and RTK-GPS for the Mothership.&nbsp;</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image1 cid-sqeCo78lqE" id="image1-w">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/figure-1-3-1-1076x504.png" alt="Mobirise">
+                    
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>ORB SLAM-2</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7"><strong>ORB-SLAM2</strong> provides significantly more accurate results over Visual Odometry by eliminating errors of drift. The key feature of ORB-SLAM2 is that it uses the same features/image for localisation, mapping, and detecting loop closure. Loop closure enables us to create a local map as well as apply global bundle adjustment. <br><strong>Camera used:</strong> R200 RGB-D camera.<br>RGB-D camera provides more accurate results than Monocular as the scaling factor is obtained directly from a depth sensor.&nbsp; It also performs faster than stereo camera configuration. <br>The FPS of the camera is <strong>60</strong>. It maintains accuracy for a maximum drone speed of <strong>1.5 m/s.</strong><br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image2 cid-sqeDZYUQDP" id="image2-10">
+    
+
+    
+
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-4">
+                <div class="image-wrapper">
+                    <img src="assets/images/rtk-448x512.png" alt="Mobirise">
+                    <p class="mbr-description mbr-fonts-style mt-2 align-center display-4">Schematic representation of RTK</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg">
+                <div class="text-wrapper">
+                    <h3 class="mbr-section-title mbr-fonts-style mb-3 display-5"><strong>GPS-RTK</strong></h3>
+                    <p class="mbr-text mbr-fonts-style display-7">Real Time Kinematic is a technique used to increase the accuracy of GNSS positions using a fixed base station that wirelessly sends out correctional data to a moving receiver.The technique involves the measurement of the carrier phase of the satellite signal, which is then subject to some sophisticated statistical methods to align the phase of these signals to eliminate the majority of normal GPS type errors.
+<br>The key to achieving centimetre-level positioning accuracy with RTK is the use of the GPS carrier phase signals. Carrier phase measurements are like precise tape measures from the base and rover antennas to the satellites. In the receiver, carrier phase measurements are made with millimetre-precision.<br>RTK provides accuracy enhancements up to about <strong>6-7 km</strong> from the base station<br></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="content4 cid-sqeExPrxsL" id="content4-11">
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="title col-md-12 col-lg-9">
+                <h3 class="mbr-section-title mbr-fonts-style align-center mb-4 display-2"><strong>Machine Learning &amp; Perception</strong></h3>
+                <h4 class="mbr-section-subtitle align-center mbr-fonts-style mb-4 display-7">Modern machine learning techniques were used to detect the target (communication module) using the camera data. Using the depth data, we also computed the 3D coordinates of the module wrt to the ground frame.</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features19 cid-sqeHS6ro1J" id="features20-13">
+
+    
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="card-wrapper pb-4">
+                    <div class="card-box align-center">
+                        <h4 class="card-title mbr-fonts-style mb-4 display-5">
+                            <strong>Mast Detection</strong></h4>
+                        <p class="mbr-text mbr-fonts-style mb-4 display-7">
+                            We used YOLOv4, which is a state-of-the-art object detection model to detect a target with high IOU(intersection over union). YOLOv4 uses new features like WRC, CSP, CmBN, SAT, Mish activation, Mosaic data augmentation, DropBlock regularization, and CIoU loss. It combines some of them to achieve state-of-the-art results: 43.5% AP (65.7% AP50) for the MS COCO dataset. These models are used to find the centre of the mast.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                <div class="item mbr-flex">
+                    <div class="icon-box">
+                        <span class="step-number mbr-fonts-style display-5">1</span>
+                    </div>
+                    <div class="text-box">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Board Detection:</strong></h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">This model is used when the drone is sufficiently far away from the mast such that the module model cannot detect the module, i.e.,&gt;50cm. We achieved a MAP of greater than 94% working at 30fps on our system.</h5>
+                    </div>
+                </div>
+                <div class="item mbr-flex last">
+                    <div class="icon-box">
+                        <span class="step-number mbr-fonts-style display-5">2</span>
+                    </div>
+                    <div class="text-box">
+                        <h4 class="icon-title card-title mbr-black mbr-fonts-style display-7"><strong>Module Detection:</strong></h4>
+                        <h5 class="icon-text mbr-black mbr-fonts-style display-4">This model is used when the drone is near to detect the module in the video feed, i.e., &lt;50cm from the module. We achieved a MAP of greater than 96% working at 30fps on our system.</h5>
+                    </div>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="image4 cid-sqeHNzM5FG" id="image4-12">
+    
+
+    
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/module-new.gif" alt="Mobirise">
+                    <p class="mbr-text mbr-fonts-style mt-2 align-center display-4">Communication Module Detection</p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="image-wrapper">
+                    <img src="assets/images/board.gif" alt="Mobirise">
+                    <p class="mbr-text mbr-fonts-style mt-2 align-center display-4">
+                        Board Detection</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="features16 cid-sqeJvOzT1q" id="features17-14">
+    
+
+    
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-5">
+                    <div class="image-wrapper">
+                        <img src="assets/images/light-800x800.jpeg" alt="Mobirise">
+                    </div>
+                </div>
+                <div class="col-12 col-lg">
+                    <div class="text-wrapper">
+                        <h6 class="card-title mbr-fonts-style display-5"><strong>LED Light Detection</strong></h6>
+                        <p class="mbr-text mbr-fonts-style mb-4 display-4">We implemented Opencv based detection techniques and applied color thresholding and contour filters for this task. The algorithm detects the color and the on/off state of navigation lights from a considerable distance accurately.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer3 cid-sqrUGXy0o5 mbr-reveal" once="footers" id="footer3-21">
+
+    
+
+    
+
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="row row-links">
+                <ul class="foot-menu">
+                    
+                    
+                    
+                    
+                    
+                <li class="foot-menu-item mbr-fonts-style display-7"><a href="mailto:mridul.agarwal@iitb.ac.in" class="text-primary">E-Mail</a></li><li class="foot-menu-item mbr-fonts-style display-7"><a href="https://www.umiciitb.com/contact/" class="text-primary" target="_blank">Contact Us</a></li></ul>
+            </div>
+            <div class="row social-row">
+                <div class="social-list align-right pb-2">
+                    
+                    
+                    
+                    
+                    
+                    
+                <div class="soc-item">
+                        <a href="https://www.linkedin.com/company/unmesh-mashruwala-innovation-cell-iit-bombay" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-linkedin socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.facebook.com/innovationcell/" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://www.youtube.com/channel/UCkwi2H7zV2texcM6bQ_UagA" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
+                        </a>
+                    </div><div class="soc-item">
+                        <a href="https://instagram.com/umic_iitb?igshid=1vialpckb3scy" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
+                        </a>
+                    </div></div>
+            </div>
+            <div class="row row-copirayt">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">@2021 Copyright UMIC</p>
+            </div>
+        </div>
+    </div>
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/e" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site" style="color:#aaa;">mobirise.com</a> easy web maker</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+  
+  
+</body>
+</html>
