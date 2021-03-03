@@ -30,9 +30,9 @@ let firebaseConfig = {
   //startTimer();
   //alert('wait kar na bhai');
   
-    var counter = 25;
+    var counter = 20;
   //   database.ref("power").set(2)
-    alert('You will be automatically redirected to the simulation page');
+    alert('You will be automatically redirected to the simulation page in 20 seconds');
     setInterval(function() {
       counter--;
       if (counter === 0) {
